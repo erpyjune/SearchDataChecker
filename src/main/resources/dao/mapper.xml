@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.erpy.dao.SearchDataMapper">
+
+    <!--<resultMap type="dao.AppsData" id="AppsDatas">-->
+        <!--<id     property="appsid"        column="APPSID"/>-->
+        <!--<result property="title"         column="TITLE"/>-->
+        <!--<result property="article_url"   column="ARTICLE_URL"/>-->
+        <!--<result property="admintag"      column="ADMINTAG"/>-->
+    <!--</resultMap>-->
+
+    <!--<select id="selectAllDatas" resultMap="AppsDatas" parameterType="hashmap">-->
+        <!--SELECT appsid, title, article_url, admintag FROM srchdoc_apps limit #{start}, #{count}-->
+    <!--</select>-->
+
+
+    <!--<select id="selectAllDatas2" resultMap="AppsDatas" parameterType="int">-->
+    <!--SELECT appsid, title, article_url, admintag FROM srchdoc_apps limit #{start}, #{count}-->
+    <!--</select>-->
+
+</mapper>
