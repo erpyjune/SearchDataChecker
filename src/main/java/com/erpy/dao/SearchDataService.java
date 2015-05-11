@@ -15,4 +15,12 @@ public class SearchDataService {
     public List<SearchData> getAllSearchData() {
         return searchDataMapper.getSearchDataAll();
     }
+
+    public List<SearchData> getCpSearchData(String cpName) {
+        return searchDataMapper.getCpSearchData(cpName);
+    }
+
+    public List<SearchData> getAllUpdateData() {
+        return searchDataMapper.getAllUpdateData();
+    }
 }
